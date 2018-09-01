@@ -22,7 +22,10 @@ Using a Python virtual environment
 To setup your project using a local python virtual environment, follow these instructions:
 
 1. Prepare the Environment
-
+    You will need
+        - mkvirtualenv (https://bitbucket.org/virtualenvwrapper/virtualenvwrapper)
+        - gdal-config (libgdal-dev in linux)
+        
   .. code:: bash
 
     git clone https://github.com/GeoNode/geonode-project.git -b master
